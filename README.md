@@ -28,7 +28,7 @@ Este challenge esta pensado para que pueda resolverse sin alguna libreria/depend
 - Un endpoint para eliminar un usuario
 - Un endpoint para modificar un usuario
 - Tests
-- Seguridad
+- Seguridad (proteger los endpoints contra uso no autorizado, implementando algun mecanismo de validacion de acceso a los mismos)
 - Que soporte QueryParams como:
   - pagination: `?page=2&limit=5`
   - sorting: `?sortBy=email&sortDirection=ascending`
